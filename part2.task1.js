@@ -1,12 +1,9 @@
 //menuliskan 10 built in function method beserta implementasinya
 
 //1. array.filter()
-//syntaks
-//var newArray = arr.filter(callback[, thisArg])
+//fungsi : Fungsi berupa tes untuk mengecek elemen yang ada di dalam array.
+//syntaks : var newArray = arr.filter(callback[, thisArg])
 
-//fungsi : Fungsi berupa tes untuk mengecek elemen yang ada di dalam array. Kembalikan nilai true untuk meloloskan element, false untuk tidak lolos, dan dapat memiliki tiga argumen
-
-//implementasi 
 let array = [2, 25, 4, 14, 17, 30, 8]
 a = 1
 b = 10
@@ -16,7 +13,7 @@ console.log(result)
 
 //2. array.sort()
 // arr.sort([compareFunction])
-//fungsi : The sort()Metode macam elemen dari array di tempat dan mengembalikan array diurutkan. Urutan pengurutan default adalah ascending, dibuat setelah mengonversi elemen menjadi string, lalu membandingkan urutannya dari nilai unit kode UTF-16.
+//fungsi : mengurutkan nilai elemen dalam array
 
 let array2 = [2, 25, 4, 14, 17, 30, 8]
 
@@ -25,7 +22,7 @@ console.log(array2.sort(
     ))
 
 //3. array.splice()
-//fungsi : Metode splice() mengubah konten dari array dengan menghapus elemen yang ada dan/atau menambah elemen baru.
+//fungsi : mengubah konten dari array dengan menghapus elemen yang ada dan/atau menambah elemen baru.
 //syntaks : array.splice(start[, deleteCount[, item1[, item2[, ...]]]])
 
 const name = [
@@ -36,7 +33,7 @@ result = name.splice(0, 4)
 console.log(result)
 
 //4. array.includes()
-//fungsi : The includes()Metode menentukan apakah sebuah array mencakup nilai tertentu antara entri nya, kembali trueatau falseyang sesuai.
+//fungsi : menentukan apakah sebuah array mencakup nilai tertentu antara entri nya, kembali trueatau falseyang sesuai.
 //syntaks : arr.includes(valueToFind[, fromIndex])
 
 // [1, 2, 3].includes(2)      // true
@@ -57,7 +54,7 @@ console.log(popped); // 'sturgeon'
 
 //6. Array.fill()
 //The fill()Metode perubahan semua elemen dalam array untuk nilai statis, dari indeks awal (default 0) untuk indeks akhir (default array.length). Ini mengembalikan array yang dimodifikasi.
-//arr.fill(value[, start[, end]])
+//syntaks : arr.fill(value[, start[, end]])
 
 const array1 = [1, 2, 3, 4];
 
@@ -83,5 +80,20 @@ const isLargeNumber = (element) => element > 13;
 console.log(array3.findIndex(isLargeNumber));
 // expected output: 3
 
+//8. array.push
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi");
+console.log(fruits)
 
-//8. 
+//9. array.shift()
+//menghapus element array pertama
+fruits.shift()
+console.log(fruits)
+
+//10. array.concat()
+//menngabungkan dua array
+//syntaks : array3 = array1.concat(array2)
+
+var color = ['white', 'blue', 'red']
+arrayHasil = fruits.concat(color)
+console.log(arrayHasil)
