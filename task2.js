@@ -1,7 +1,7 @@
 const mtk = 80
 const bahasaIndonesia = 90
 const bahasaInggris = 89
-const ipa =  69
+const ipa =  80
 
 //validasi nilai
 if (isNaN (mtk)){

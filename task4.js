@@ -21,4 +21,4 @@ console.log(data)
 
 //soal b. Ambilah data “street dan city” tersebut menggunakan destructuring
 const {street, city} = data.address
-console.log('Street = ' + street + ', City = ' + city)
+console.log(`street = ${street} city = ${city}`)
