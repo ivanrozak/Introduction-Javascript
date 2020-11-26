@@ -14,10 +14,10 @@
   fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
     .then(data => {
-      data.map((dataSet)=>{
-        console.log(`${DataSet.name}`)
+            let name = data.map((content) => content.name)
+            //document.getElementById("name").innerHTML = name
+            console.log(name)
       })
-    })
     .catch(err => console.log(err))
 
 </script>
