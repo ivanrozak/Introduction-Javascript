@@ -5,7 +5,7 @@ function searchName(a, b, callback){
     callback(a,b)   
 }
 function filterString(a,b){
-    result = name.filter(x => x.includes(a) || x.includes(a.toLowerCase()))
+    result = name.filter(x => x.toLowerCase().includes(a.toLowerCase())) // Angela = An
     result = result.splice(0, b)
     console.log(result)
 }
