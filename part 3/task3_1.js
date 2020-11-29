@@ -15,4 +15,4 @@ const luasPersegiPanjang = (panjang, lebar) => {
     })
 }
 
-luasPersegiPanjang(5, 2)
+luasPersegiPanjang('a', 2)

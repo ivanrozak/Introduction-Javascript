@@ -19,7 +19,7 @@ const cekHariKerja = (day) =>{
     })
 }
 
-cekHariKerja('selasa')
+cekHariKerja('minggu')
 
 
 // const cekHariKerja = (day) =>{
@@ -47,7 +47,7 @@ cekHariKerja('selasa')
 //         console.log(error)
 //     }
 // }
-// cekHariKerja('senin')
+// cekHariKerja('minggu')
 
 
 //penggunaan then catch adalah untuk menghandle error pada function yang didalamnya menggunakan promise yang mengandung resolve dan reject.
